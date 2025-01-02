@@ -1,18 +1,3 @@
-#!/usr/bin/python
-# coding: utf-8
-
-"""
-#############################################################################################################
-#  Andrea Favero 10 march 2024
-#
-# This script relates to CUBOTino autonomous, a small and simple Rubik's cube solver robot 3D printed
-# This specific script manages the display, and it's imported by other Cubotino_T scripts.
-#
-#############################################################################################################
-"""
-
-
-
 from Cubotino_T_settings_manager import settings as settings   # custom library managing the settings from<>to the settings files
 from Cubotino_T_pigpiod import pigpiod as pigpiod  # start the pigpiod server
 from PIL import Image, ImageDraw, ImageFont        # classes from PIL for image manipulation
