@@ -1,9 +1,3 @@
-#!/usr/bin/python
-# coding: utf-8
-
-# from https://gist.github.com/rwb27/a23808e9f4008b48de95692a38ddaa08/
-# changed part of the variables named "cam" in "camera", otherwise some errorr were returned
-
 from __future__ import print_function
 import picamera
 from picamera import mmal, mmalobj, exc
