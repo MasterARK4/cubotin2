@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-"""
-######################################################################################################################
-# Andrea Favero 31 May 2024
-# 
-# GUI helping tuninig CUBOTino servos positions, and some of the camera settings.
-# This script relates to CUBOTino autonomous, a small and simple Rubik's cube solver robot 3D printed
-# 
-#
-######################################################################################################################
-"""
-
-
 # ################################## Imports  ########################################################################
 
 # python libraries, normally distributed with python
