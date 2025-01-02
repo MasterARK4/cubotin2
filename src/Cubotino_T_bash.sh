@@ -1,11 +1,3 @@
-#!/usr/bin/env bash
-
-#######   Andrea Favero,  17 April 2023  #####################################################
-#  This bash script activates the venv, and starts the Cubotino_T.py script after the Pi boots
-#  When the python script is terminated without errors (long button press), the Pi shuts down
-#  (check notes below before uncommenting the "halt -p"command).
-##############################################################################################
-
 # activate the venv
 source /home/pi/cubotino/src/.virtualenvs/bin/activate
 
