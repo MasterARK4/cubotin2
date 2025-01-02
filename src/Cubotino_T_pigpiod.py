@@ -1,17 +1,3 @@
-#!/usr/bin/python
-# coding: utf-8
-
-"""
-#############################################################################################################
-#  Andrea Favero 12 October 2023
-#
-# This script relates to CUBOTino autonomous, a small and simple Rubik's cube solver robot 3D printed
-# This specific script checks the pigpiod status, and reset it once at the start
-# This is a workaround, to solve some pigpiod issues when automatically loaded at Raspberry Pi boot
-#
-#############################################################################################################
-"""
-
 from subprocess import Popen, PIPE
 import time
 
