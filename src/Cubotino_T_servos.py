@@ -1,35 +1,3 @@
-#!/usr/bin/python
-# coding: utf-8
-
-"""
-#############################################################################################################
-# Andrea Favero 31 May 2024
-#
-# This script relates to CUBOTino Autonomous, a very small and simple Rubik's cube solver robot 3D printed
-# CUBOTino autonomous is the 'Top version', of the CUBOTino versions
-# This specific script controls two servos based on the movements string from Cubotino.py
-# 
-# Possible moves with this robot
-# 1) Spins the complete cube ("S") laying on the bottom face: 1 means CW 90deg turns, while 3 means 90CCW turn
-# 2) Flips the complete cube ("F") by "moving" the Front face to Bottom face: Only positive values are possible
-# 3) Rotates the bottom layer ("R") while costraining the 2nd and 3rd layer.
-# 4) The order of S, F has to be strictly followed
-# 5) Example 'F1R1S3' means: 1x cube Flip, 1x (90deg) CW rotation of the 1st (Down) layer, 1x (90deg) CCW cube Spin
-#
-# For Rotations, the bottom servo makes a little extra rotation than target, before coming back to target; This
-# is needed to recover the gaps between cube_hoder - cube - top_cover, and still getting a decent cube layers alignment.
-#
-#
-# Developped on:
-#  - Raspberry pi Zero 2 
-#  - Raspberry Pi OS (Legacy) A port of Debian Buster with security updates and desktop environment
-#    (Linux raspberry 5.10.103-v7+ #1529 SMP Tue 8 12:21:37 GMT 2022 armv71 GNU/Linux)
-#
-#############################################################################################################
-"""
-
-
-
 ##################    imports standard libraries   #################################
 import time                            # import time library
 import RPi.GPIO as GPIO                # import RPi GPIO library
