@@ -1,18 +1,3 @@
-#!/usr/bin/python
-# coding: utf-8
-
-"""
-#############################################################################################################
-#  Andrea Favero 10 March 2023
-#
-# This script relates to CUBOTino autonomous, a very small and simple Rubik's cube solver robot 3D printed
-# CUBOTino autonomous is the 'Top version', of the CUBOTino robot series.
-# This specific script manages the camera, for Raspberry Pi OS ==10 (Buster).
-# This file is imported by Cubotino_T.py and Cubotino_servos_GUI.py.
-#
-#############################################################################################################
-"""
-
 from Cubotino_T_settings_manager import settings as settings  # settings manager Class
 from picamera.array import PiRGBArray        # Raspberry Pi specific package for the camera, using numpy array
 from picamera import PiCamera                # Raspberry Pi specific package for the camera
