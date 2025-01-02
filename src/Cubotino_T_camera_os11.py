@@ -1,18 +1,3 @@
-#!/usr/bin/python
-# coding: utf-8
-
-"""
-#############################################################################################################
-#  Andrea Favero 16 June 2024
-#
-# This script relates to CUBOTino Pocket, a very small and simple Rubik's cube solver robot 3D printed
-# CUBOTino autonomous is the CUBOTino versions for the Rubik's cube 2x2x2.
-# This specific script manages the camera, for Raspberry Pi OS 11 (Bullseye).
-# This file is imported by Cubotino_T.py and Cubotino_servos_GUI.py.
-#
-#############################################################################################################
-"""
-
 from Cubotino_T_settings_manager import settings as settings  # settings manager Class
 from picamera2 import Picamera2        # Raspberry Pi specific package for the camera, since Raspberry Pi OS 11
 from libcamera import controls
