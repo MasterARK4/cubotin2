@@ -1,38 +1,3 @@
-#!/usr/bin/python
-# coding: utf-8
-
-""" 
-#############################################################################################################
-#  Andrea Favero, 31 May 2024
-#
-#  This code relates to CUBOTino autonomous, a very small and simple Rubik's cube solver robot 3D printed.
-#  CUBOTino autonomous is the 'Top version', of the CUBOTino robot series.
-#  Demo at https://youtu.be/dEOLhvVMcUg
-#  Instructions:https://www.instructables.com/CUBOTino-Autonomous-Small-3D-Printed-Rubiks-Cube-R/
-#
-#  This is the core script, that interracts with few other files.
-#  Many functions of this code have been developed since 2021, for my previous robots (https://youtu.be/oYRXe4NyJqs).
-#
-#  The cube status is detected via a camera system (PiCamera) and OpenCV .
-#  Kociemba solver is used foer the cube solution (from: https://github.com/hkociemba/RubiksCube-TwophaseSolver)
-#  Credits to Mr. Kociemba for his great job !
-#  Search for CUBOTino autonomous on www.instructables.com, to find more info about this robot.
-#
-#  Developped on:
-#  - Raspberry Pi Zero2W and Raspberry Pi ZeroW
-#  - Raspberry Pi OS 10 (A port of Debian Buster with security updates and desktop environment)
-#    (Linux raspberry 5.10.103-v7+ #1529 SMP Tue 8 12:21:37 GMT 2022 armv71 GNU/Linux)
-#  - OpenCV cv2 ver: 4.1.0
-#  - PiCamera v1.3
-#  - Numpy: 1.21.4
-#
-#  Updated for:
-#  - Raspberry Pi OS 11 (A port of Debian Bullseye with security updates and desktop environment)
-#
-#############################################################################################################
-"""
-
-
 # __version__ variable
 version = '7.4 (31 May 2024)'
 
