@@ -1,21 +1,3 @@
-#!/usr/bin/python
-# coding: utf-8
-
-"""
-#############################################################################################################
-#  Andrea Favero 31 May 2024
-#
-# This script relates to CUBOTino Autonomous, a small and simple Rubik's cube solver robot 3D printed
-# This specific script manages the interactions with the settings files (json text files).
-#
-# Parameters at the settings files are those more likely to vary between differentt robots.
-# Having the setting "insulated" in text files makes easier to list, document, change them.
-#
-# Mac address is used to match boards and settings on my robots: This limits mistakes at my end. 
-#
-#############################################################################################################
-"""
-
 import sys, glob, os.path, pathlib, json
 from getmac import get_mac_address           # library to get the device MAC ddress
 
